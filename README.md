@@ -40,6 +40,8 @@ Il percorso in cui verrà installato è il seguente: /usr/local/lsws/
 
 L'installazione, a questo punto, dovrebbe essere andata a buon fine!
 
+N.B. CONTROLLA SE LA PASSWORD ADMIN E' STATA SALVATA. Altrimenti, segnatela. (Alla fine dell'installazione, esce una riga in rosso con la password admin).
+
 Posizionandoci con "cd" nella cartella e premendo "tab", controlliamo tutte le opzioni disponibili:
 
 ![1_opzioni per openlitespeed](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/81001ace-5dbd-4f2c-bc29-4f0df4c5f2a0)
