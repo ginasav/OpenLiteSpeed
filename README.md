@@ -77,3 +77,22 @@ Per fermare il servizio:
 Questo è l'output:
 
 ![stop ols](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/74ed1ff5-26ec-4acc-822a-f3f563cda445)
+
+
+Avviando il servizio e accedendo dal broswer a:
+
+```ruby
+
+localhost:8088
+
+```
+
+dovreste accedere alla GUI di OLS
+
+
+![gui ols](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/e4a31d79-181c-483d-882b-7ff048c7d64a)
+
+All'interno troverete diverse opzioni utili al web service:
+
+
+![gui options](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/2659f720-d2fc-4447-8e62-3a3fa9228832)
