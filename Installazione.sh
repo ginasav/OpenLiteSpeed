@@ -4,12 +4,12 @@
 # Installazione OpenLiteSpeed su sistema Kali Linux
 ###############################################
 
-sudo su
+$ sudo su
 
-wget https://openlitespeed.org/packages/openlitespeed-1.7.16.tgz
+$ wget https://openlitespeed.org/packages/openlitespeed-1.7.16.tgz
 
-tar -zxvf openlitespeed-*.tgz
+$ tar -zxvf openlitespeed-*.tgz
 
-cd openlitespeed
+$ cd openlitespeed
 
-./install.sh
+$ ./install.sh
