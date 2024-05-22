@@ -41,4 +41,37 @@ Il percorso in cui verrà installato è il seguente: /usr/local/lsws/
 L'installazione, a questo punto, dovrebbe essere andata a buon fine!
 
 Posizionandoci con "cd" nella cartella e premendo "tab", controlliamo tutte le opzioni disponibili:
+
 ![1_opzioni per openlitespeed](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/81001ace-5dbd-4f2c-bc29-4f0df4c5f2a0)
+
+Iniziamo il programma, quindi, con la seguente riga di codice, all'interno del terminale Linux:
+
+```ruby
+
+/usr/local/lsws/bin/lswsctrl start
+
+```
+
+Questo è l'output della stringa qui sopra:
+
+![start ols](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/c527bdc2-6f66-4807-8627-3f3e7a07a5bd)
+
+Per controllare lo status:
+
+```ruby
+
+/usr/local/lsws/bin/lswsctrl status
+
+```
+
+Per fermare il servizio:
+
+```ruby
+
+/usr/local/lsws/bin/lswsctrl stop
+
+```
+
+Questo è l'output:
+
+![stop ols](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/74ed1ff5-26ec-4acc-822a-f3f563cda445)
