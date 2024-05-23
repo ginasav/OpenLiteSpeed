@@ -109,7 +109,7 @@ con
 sudo nano /etc/apt/sources.list.d/lst_debian_repo.list
 
 ```
-aggiunge alla riga 1:
+aggiungere alla riga 1
 
 deb http://rpms.litespeedtech.com/debian/ main
 
