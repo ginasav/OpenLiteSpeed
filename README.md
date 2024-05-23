@@ -96,3 +96,31 @@ All'interno troverete diverse opzioni utili al web service:
 
 
 ![gui options](https://github.com/ginasav/OpenLiteSpeed/assets/169439971/2659f720-d2fc-4447-8e62-3a3fa9228832)
+
+
+!!!!!UPDATE!!!!
+
+In Kali Linux, modificare il file /etc/apt/sources.list.d/lst_debian_repo.list
+
+con
+
+```ruby
+
+sudo nano /etc/apt/sources.list.d/lst_debian_repo.list
+
+```
+aggiunge alla riga 1:
+
+deb http://rpms.litespeedtech.com/debian/ main
+
+la release di Kali Linux, controllabile con:
+
+```ruby
+
+lsb_release -sc
+
+```
+Nel mio caso attuale, quindi, la riga sarà modificata con:
+
+deb http://rpms.litespeedtech.com/debian/ kali-rolling main
+
